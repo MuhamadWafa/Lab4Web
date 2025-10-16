@@ -54,12 +54,11 @@ Selanjutnya tambahkan deklarasi CSS pada bagian <head> untuk membuat elemen floa
 </style>
 ```
 Hasil codingan nya:
-```
-image
-```
+
+
 Mengatur Clearfix Element
 Clearfix digunakan untuk mengatur elemen setelah float element. Property clear digunakan untuk mengatur posisi agar elemen berikutnya tidak sejajar dengan elemen yang difloat.
-
+```
 Tambahkan elemen <div> lainnya setelah div3 seperti berikut:
 
 <section>
@@ -68,13 +67,15 @@ Tambahkan elemen <div> lainnya setelah div3 seperti berikut:
     <div class="div3">Div 3</div>
     <div class="div4">Div 4</div>
 </section>
+```
 Kemudian atur property clear pada CSS seperti berikut:
-
+```
 .div4 {
     background-color: blue;
     clear: left;
     float: none;
 }
+```
 Hasil di run di browser:
 
 image
@@ -84,7 +85,7 @@ Buat folder baru dengan nama lab4_layout, kemudian buat dua file di dalamnya:
 home.html
 style.css
 Berikut struktur awal file home.html:
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,11 +100,12 @@ Berikut struktur awal file home.html:
     </div>
 </body>
 </html>
+```
 Kemudian buat kerangka layout dengan semantics element seperti berikut.
 
 image
 Kemudian tulis kode berikut:
-
+```
 <header>
     <h1>Layout Sederhana</h1>
 </header>
@@ -125,11 +127,12 @@ Kemudian tulis kode berikut:
 <footer>
     <p>&copy; 2021 - Universitas Pelita Bangsa</p>
 </footer>
+```
 Hasil di browser:
 
 image
 Kemudian tambahkan kode CSS untuk membuat layoutnya:
-
+```
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
@@ -164,12 +167,13 @@ header h1 {
     margin: 20px 10px;
     color: #b5b5b5;
 }
+```
 Hasil saat di run di browser:
 
 image
 Membuat Navigasi
 Kemudian selanjutnya mengatur navigasi.
-
+```
 /* Navigasi */
 nav {
     display: block;
@@ -189,6 +193,7 @@ nav a.active,
 nav a:hover {
     background-color: #2b83ea;
 }
+```
 Hasil saat di run di browser
 
 image
@@ -198,7 +203,7 @@ Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut:
 image
 Mengatur Layout Main dan Sidebar
 Selanjutnya mengatur main content dan sidebar, tambahkan CSS float berikut:
-
+```
 /* Main Content */
 #wrapper {
     margin: 0;
@@ -216,9 +221,10 @@ Selanjutnya mengatur main content dan sidebar, tambahkan CSS float berikut:
     width: 260px;
     padding: 20px;
 }
+```
 Membuat Sidebar Widget
 Kemudian selanjutnya menambahkan elemen lain dalam sidebar:
-
+```
 <aside id="sidebar">
     <div class="widget-box">
         <h3 class="title">Widget Header</h3>
@@ -240,7 +246,9 @@ Kemudian selanjutnya menambahkan elemen lain dalam sidebar:
         </p>
     </div>
 </aside>
+```
 Kemudian tambahkan CSS berikut:
+```
 /* Widget */
 .widget-box {
     border: 1px solid #eee;
@@ -276,11 +284,12 @@ Kemudian tambahkan CSS berikut:
     padding: 15px;
     line-height: 25px;
 }
+```
 Hasil tampilan di browser nya:
 image
 Mengatur Footer
 Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer:
-
+```
 /* Footer */
 footer {
     clear: both;
@@ -288,9 +297,11 @@ footer {
     padding: 20px;
     color: #eee;
 }
+```
 Hasil di tampilan browsernya:
 image
 Menambahkan Elemen lainnya pada Main Content:
+```
 <section id="main">
     <div class="row">
 
@@ -323,6 +334,7 @@ Menambahkan Elemen lainnya pada Main Content:
 
     </div>
 </section>
+```
 Kemudian tambahkan CSS:
 /* box */
 .box {
@@ -374,9 +386,11 @@ Kemudian tambahkan CSS:
 .entry:after {
     clear: both;
 }
+```
 Hasil saat tampilan di browser
 image
 Menambahkan Content Artikel:
+```
 <hr class="divider" />
 
 <article class="entry">
@@ -402,7 +416,10 @@ Menambahkan Content Artikel:
         pretium ac.
     </p>
 </article>
+```
+
 Kemudian tambahkan CSS:
+```
 .divider {
     border: 0;
     border-top: 1px solid #eeeeee;
@@ -431,6 +448,7 @@ Kemudian tambahkan CSS:
 .entry .right-img {
     float: right;
 }
+```
 Hasil tampilan di browser nya:
 screencapture-127-0-0-1-5500-lab4-layout1-html-2025-10-17-00_16_47
 Pertanyaan dan tugas:
@@ -441,7 +459,7 @@ Buat file baru bernama about.html Isi dengan layout sederhana yang menampilkan:
 Deskripsi singkat (misalnya tentang web atau pembuatnya)
 Portfolio atau daftar karya/proyek
 Contoh struktur:
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -538,6 +556,7 @@ Contoh struktur:
     </div>
 </body>
 </html>
+```
 Hasil tampilam pada browsernya:
 screencapture-127-0-0-1-5500-lab4-layout1-html-2025-10-17-00_25_45
 🧠 Penjelasan
