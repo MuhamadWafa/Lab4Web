@@ -33,7 +33,7 @@ Kemudian tambahkan kode untuk membuat box element dengan tag <div> seperti berik
 ```
 CSS Float Property
 Selanjutnya tambahkan deklarasi CSS pada bagian <head> untuk membuat elemen float, seperti berikut:
-
+```
 <style>
     div {
         float: left;
@@ -52,9 +52,11 @@ Selanjutnya tambahkan deklarasi CSS pada bagian <head> untuk membuat elemen floa
         background: green;
     }
 </style>
+```
 Hasil codingan nya:
-
+```
 image
+```
 Mengatur Clearfix Element
 Clearfix digunakan untuk mengatur elemen setelah float element. Property clear digunakan untuk mengatur posisi agar elemen berikutnya tidak sejajar dengan elemen yang difloat.
 
