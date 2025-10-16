@@ -6,7 +6,7 @@
 
 Langkah-langkah Praktikum
 Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut:
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +20,7 @@ Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut:
     </header>
 </body>
 </html>
+````
 Membuat Box Element
 Kemudian tambahkan kode untuk membuat box element dengan tag <div> seperti berikut:
 
