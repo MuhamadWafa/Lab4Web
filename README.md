@@ -1,3 +1,4 @@
+
 # Lab4Web
 # Muhamad Wafa Mufida Zulfi
 # 312410334
@@ -21,14 +22,15 @@ Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut:
 </body>
 </html>
 ````
-Membuat Box Element
+### Membuat Box Element
 Kemudian tambahkan kode untuk membuat box element dengan tag <div> seperti berikut:
-
+```
 <section>
     <div class="div1">Div 1</div>
     <div class="div2">Div 2</div>
     <div class="div3">Div 3</div>
 </section>
+```
 CSS Float Property
 Selanjutnya tambahkan deklarasi CSS pada bagian <head> untuk membuat elemen float, seperti berikut:
 
